@@ -52,6 +52,5 @@ COMMIT_MESSAGES = {
         "I don’t even know what happened here, but it works.",
         "I’m just trying to survive this project.",
         "I have no idea what I’m doing, but it compiles, so it’s fine.",
-        "I’m just doing my best not to burn out.",
     ]
 }
