@@ -1,0 +1,2 @@
+[console_scripts]
+sarcastic-commit = sarcastic_commit:main

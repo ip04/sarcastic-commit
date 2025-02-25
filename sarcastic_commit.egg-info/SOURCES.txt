@@ -1,0 +1,8 @@
+messages.py
+sarcastic_commit.py
+setup.py
+sarcastic_commit.egg-info/PKG-INFO
+sarcastic_commit.egg-info/SOURCES.txt
+sarcastic_commit.egg-info/dependency_links.txt
+sarcastic_commit.egg-info/entry_points.txt
+sarcastic_commit.egg-info/top_level.txt
