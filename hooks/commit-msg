@@ -1,4 +1,4 @@
-if grep -qE "^(fix|update|bug|wip)$" "$1"; then
-    RANDOM_MESSAGE=$(python3 -c "import sarcastic_commit; print(sarcastic_commit.generate_commit())")
+if [ -z "$(cat "$1")" ] || grep -qE "^(fix|update|wip|changes)$" "$1"; then
+    RANDOM_MESSAGE=$(sarcastic-commit generate --mood sarcastic)
     echo "$RANDOM_MESSAGE" > "$1"
 fi
