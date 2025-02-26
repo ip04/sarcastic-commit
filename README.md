@@ -10,8 +10,6 @@ Yeah, we’ve all been there. You could write something useful like "Refactored 
 
 Enter **sarcastic-commit**—your new best friend (or worst enabler).
 
----
-
 ## 🚀 What It Does
 
 ✅ Automatically generates commit messages full of sarcasm, frustration, and **blind optimism.**
@@ -22,8 +20,6 @@ Enter **sarcastic-commit**—your new best friend (or worst enabler).
 
 ✅ Can be **integrated with Git hooks** to automate commit messages!
 
----
-
 ## 🎯 Sample Commit Messages
 
 💡 "Fixed a bug. Probably created three more."
@@ -33,8 +29,6 @@ Enter **sarcastic-commit**—your new best friend (or worst enabler).
 💡 "Committed at 3 AM. Future me, good luck figuring this out."
 
 💡 "Refactored the code. Now it’s broken in new and exciting ways!"
-
----
 
 ## 📦 Installation & Usage
 
@@ -53,8 +47,6 @@ git clone https://github.com/ip04/sarcastic-commit.git
 cd sarcastic-commit
 pip install .
 ```
-
----
 
 ## 🔗 Integrating with Git Hooks
 
@@ -91,8 +83,6 @@ chmod +x ~/.git-hooks/commit-msg
 
 Now, **every commit in any Git repository** will automatically get a sarcastic commit message. 🎉
 
----
-
 ## 🎯 Using sarcastic-commit Directly
 
 If you don’t want to use Git Hooks, you can **manually generate** a commit message:
@@ -106,8 +96,6 @@ Or specify a mood for the commit message:
 ```bash
 git commit -m "$(sarcastic-commit generate --mood optimistic)"
 ```
-
----
 
 ## 🪟 Windows Users
 
@@ -136,8 +124,6 @@ sarcastic-commit generate > %1
 git commit -m "$(sarcastic-commit generate)"
 ```
 
----
-
 ## 👩‍💻 Development & Contributions
 
 If you’d like to contribute or extend the project, feel free to **fork the repo and submit pull requests**. Here are some things you might want to work on:
@@ -160,8 +146,6 @@ If you’d like to contribute or extend the project, feel free to **fork the rep
 
 🚀 Improve developer experience with **Docker support** and **unit tests (pytest)**.
 
----
-
 ## 🤷‍♂️ Why Use This?
 
 ✅ Because commit messages should be fun, not boring.
@@ -169,8 +153,6 @@ If you’d like to contribute or extend the project, feel free to **fork the rep
 ✅ Because debugging is more entertaining when past-you mocks you.
 
 ✅ Because writing "fix" for the 500th time isn't creative anymore.
-
----
 
 ## 📜 License
 
